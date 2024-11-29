@@ -1,0 +1,6 @@
+#define WLAN_SSID       "YOUR_WIFI_SSID_HERE"
+#define WLAN_PASS       "YOUR_WIFI_PASSWORD_HERE"
+#define AIO_SERVER      "io.adafruit.com"
+#define AIO_SERVERPORT  1883
+#define AIO_USERNAME  "YOUR_AIO_USERNAME_HERE"
+#define AIO_KEY       "YOUR_AIO_KEY_HERE"
