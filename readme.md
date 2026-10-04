@@ -7,3 +7,9 @@ This is a simple HMI using an Elecrow T-Encoder Pro to control my esp32_compress
 ## Manual configuration required
 * You need to enter your real credentials for your wifi network and Adafruit.io account in `src/connection_settings.h`
 * This project uses lvgl, and unfortunately lvgl requires configuration in `lv_conf.h` which it expects to find adjacent to wherever you've installed the `lvgl` library itself.  For instance, `.pio\libdeps\dfrobot_firebeetle2_esp32s3\lv_conf.h`.  My `lv_conf.h` is copied in the root of this project for reference, but you'll need to copy it to the appropriate location.
+
+## License
+
+MIT, see [LICENSE](LICENSE). Third-party files keep their own licenses:
+`lib/Arduino_GFX-1.3.7/` (Arduino_GFX), `lv_conf.h` (LVGL's template), and
+`src/custom.h` (LILYGO, GPL-3.0).
